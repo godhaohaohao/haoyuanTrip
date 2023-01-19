@@ -12,6 +12,7 @@ export default defineConfig({
       resolvers: [VantResolver()],
     }),
   ],
+  base:'/haoyuanTrip',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

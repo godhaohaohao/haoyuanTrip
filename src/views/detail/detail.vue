@@ -133,6 +133,7 @@ watch(scrollTop,(newValue)=>{
     for(let i = 0;i < values.length; i++){
         if(values[i] > newValue + 44){
             index = i - 1
+            console.log(index)
             break
         }
     }

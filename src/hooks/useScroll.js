@@ -34,7 +34,7 @@ export default function useScroll(elRef){
         if(el === window){
             scrollTop.value = document.documentElement.scrollTop
             scrollHeight.value = document.documentElement.scrollHeight
-            clientHeight.value = document.documentElement.clientHeight
+            clientHeight.value = document.documentElement.clientHeigh
         }else{
             scrollTop.value = el.scrollTop
             scrollHeight.value = el.scrollHeight

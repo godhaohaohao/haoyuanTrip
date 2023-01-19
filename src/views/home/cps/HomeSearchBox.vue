@@ -128,15 +128,16 @@ const btnClick = ()=>{
         padding: 0 20px;
         height: 44px;
         align-items: center;
+        position: relative;
     }
-    .position{
+   .location > .position{
         position: absolute;
         right:2px;
         width: 100px;
         display: flex;
         align-items: center
     }
-    .city{
+    .location > .city{
         color:#333
     }
     .position > .text{
@@ -156,15 +157,16 @@ const btnClick = ()=>{
         text-align: center;
         margin-top:10px ;
         color: rgb(89, 90, 92);
+        position: relative;
     }
-    .start{
+    .date-range > .start{
         display: flex;
         flex-direction: column;
         margin-left: 1px;
         position: relative;
         left: 12px;  
     }
-    .stay{
+    .date-range > .stay{
         position: absolute;
         left: 45%;
         transform: translateX(-50%);
@@ -176,7 +178,7 @@ const btnClick = ()=>{
         position: absolute;
         right: 40px;
     }
-    .tip{
+   .end > .tip{
         font-size:12px;
         margin-left:-34px ;
     }
